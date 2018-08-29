@@ -59,8 +59,6 @@ int trackingInterval;
 
 //GPS
 bool atHome = true;
-#define HOME_CORDS_LAT 43.58923549984751 * M_PI / 180.0
-#define HOME_CORDS_LON 1.295891482209072 * M_PI / 180.0
 double  prevLat;
 double  prevLon;
 int indexMap = 0;
@@ -116,7 +114,7 @@ unsigned long previousMillis = 0;
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "dfc6102e22554d3b85c23e4f1b437f17";
+char auth[] = "";
 
 // Your GPRS credentials
 // Leave empty, if missing user or pass
